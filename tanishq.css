@@ -1,65 +1,96 @@
-*{
-    margin: 0px;
-    padding: 0px;
-      font-family: "IBM Plex Sans", sans-serif;
-}
-header{
-    width: 100%;
-     
-}
-.logo img{
-    width:90px;
-    margin: 10px;
-    padding:0px 40px;
-    
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-input{
-    width: 550px;
-    height: 40px;
-    border-radius: 20px;
-    padding-left: 40px;
-    margin: 40px;
-    border: 2px solid gray;
-    
-}
-.header{
-    display: flex;
-    align-items: center;  
-}
-.container{
-    display: flex;
-    width: 100%;
-    padding-left:10px;
-    justify-content: space-evenly;
-}
-.container img{
-    width: 15px;
-    height: 20px;
-    padding-left:10px;
+/* body {
+  background-color: #fff;
+  color: #444;
+} */
 
-    
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+.main{
+  /* background-color: #f8f8f8;  */
+  border-bottom: 1px solid #ccc; */
+}
+.logo img {
+  width: 90px;
+}
 
+.searchbtn form {
+  display: flex;
+  align-items: center;
 }
-.container a{
-     padding: 2px;
-    font-size: 11px;
-    text-decoration: none;
-    color: black;
-    padding-right:37px;
-    
 
+.searchbtn input {
+  width: 550px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 40px;
+  border: 2px solid gray;
+  font-size: 14px;
 }
-.maincontainer{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    margin-left: 40px
+
+.searchbtn i {
+  position: relative;
+  left: 30px;
+  color: #832729;
 }
-.icons .img span{
-padding:30px;
-color: brown;
+
+.icon11{
+  
+}
+
+.icons .img {
+  display: flex;
+  gap: 20px;
+  color: #832729;
+  font-size: 18px; 
 }
 
 
+.maincontainer1 {
+  padding: 20px 100px;
+  /* background-color: #fff;
+  border-top: 1px solid #eee; */
+}
+
+.maincontainer1 ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  /* flex-wrap: wrap; */
+  /* gap: 10px; */
+}
+
+.maincontainer1 ul li {
+  display: flex;
+  align-items: center;
+}
+
+.maincontainer1 ul li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.maincontainer1 ul li a:hover {
+  color:#832729;
+  text-decoration: underline;
+}
+
+.maincontainer1 ul li a img {
+  width: 20px;
+  height: 20px;
+}
